@@ -6,7 +6,10 @@ import (
 
 func main() {
 	t := ui.Create()
+	
 	ui.InitTui(t)
+	
 	t.UpdateTable()
+	
 	t.Run()
 }
